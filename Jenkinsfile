@@ -12,7 +12,7 @@ pipeline {
             steps {
                 bat 'if exist out rmdir /s /q out'
                 bat 'mkdir out'
-                bat 'javac -d out src\\hello\\Hello.java'
+                bat 'javac --release 8 -d out src\\hello\\Hello.java'
             }
         }
 
