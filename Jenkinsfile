@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkins-agent-1'
+        label 'jenkins-agent-3'
     }
     stages {
         stage('Checkout') {
